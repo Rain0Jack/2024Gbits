@@ -1,0 +1,10 @@
+InteractPoint*1111111
+"111",
+"222",
+"111<color=red>ºìÉ«ÎÄ×Ö</color>",
+"<b>Bold</b>11<color=red>Red</color>Text"
+Player*66666
+1111
+222
+33
+InteractPoint*000

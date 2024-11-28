@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621f3f918dd5423d93a746ad8fc9082d, type: 3}
+  m_Name: Pipeline
+  m_EditorClassIdentifier: 
+  CurrentTask:
+    ShowLog: 0
+    Status: 1
+    GameObject: {fileID: 0}
+    From: 0
+    NameToFullName: []
+    BindInfos: []
+    ScriptsFolder: Assets/Scripts/Subtitle
+    ClassName: Subtitle
+    Namespace: Project
+    MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\nnamespace Project\r\n{\r\n\tpublic
+      partial class Subtitle : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
+      Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:30e8e73e-5fbb-4fa7-8a57-f40e278c8990\r\nusing UnityEngine;\r\n\r\nnamespace
+      Project\r\n{\r\n\tpublic partial class Subtitle\r\n\t{\r\n\r\n\t\tpublic TMPro.TextMeshProUGUI
+      textBox;\r\n\r\n\t}\r\n}\r\n"
