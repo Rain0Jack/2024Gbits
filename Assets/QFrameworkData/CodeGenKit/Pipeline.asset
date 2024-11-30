@@ -18,13 +18,16 @@ MonoBehaviour:
     GameObject: {fileID: 0}
     From: 0
     NameToFullName: []
-    BindInfos: []
+    BindInfos:
+    - TypeName: Project.Choice
+      PathToRoot: Choice
+      MemberName: Choice
     ScriptsFolder: Assets/Scripts/Subtitle
-    ClassName: Subtitle
+    ClassName: ChoiceSystem
     Namespace: Project
     MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\nnamespace Project\r\n{\r\n\tpublic
-      partial class Subtitle : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
+      partial class ChoiceSystem : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
       Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
-    DesignerCode: "// Generate Id:30e8e73e-5fbb-4fa7-8a57-f40e278c8990\r\nusing UnityEngine;\r\n\r\nnamespace
-      Project\r\n{\r\n\tpublic partial class Subtitle\r\n\t{\r\n\r\n\t\tpublic TMPro.TextMeshProUGUI
-      textBox;\r\n\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:e73ff42c-73be-49de-b7a2-535d12982d57\r\nusing UnityEngine;\r\n\r\nnamespace
+      Project\r\n{\r\n\tpublic partial class ChoiceSystem\r\n\t{\r\n\r\n\t\tpublic
+      Project.Choice Choice;\r\n\r\n\t}\r\n}\r\n"

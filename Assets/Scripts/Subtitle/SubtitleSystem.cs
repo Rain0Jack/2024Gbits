@@ -64,6 +64,7 @@ namespace Project
             SubtitleRequestInfo firstInfo = currentInfo;   // 用于保存第一条字幕信息
             string previousParent = "";  // 保存上一行的父物体名称
 
+
             foreach (var line in lines)
             {
                 if (string.IsNullOrWhiteSpace(line)) continue; // 跳过空行
@@ -133,8 +134,6 @@ namespace Project
 
             return firstInfo;
         }
-
-
 
     }
 }

@@ -7,5 +7,12 @@ public class TextClickManager : Singleton<TextClickManager>
 {
     private TextClickManager() { }
     public Dictionary<string, UnityAction> clickActions = new Dictionary<string, UnityAction>();
+    public void RegisterLinkAction(string linkID, UnityAction action)
+    {
+        if (!clickActions.ContainsKey(linkID))
+        {
+            clickActions.Add(linkID, action);
+        }
+    }
 
 }
